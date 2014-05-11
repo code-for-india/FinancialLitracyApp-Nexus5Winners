@@ -1,0 +1,205 @@
+{
+	"start_node": "1",
+	"type": "adaptive",
+	"begin_variables": {
+			"score": 0,
+			"action_summary":[],
+		},
+	"winning_score": 15,
+	"1":[{
+		"question_type": "1",
+		"question_text": "What 2% of 2500",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "100",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "75",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "50",
+				"click_handler": {
+					"variable_delta": {
+						"score": 1,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			}
+		]
+		
+	}],
+	"2":[{
+		"question_type": "1",
+		"question_text": "What 2% of 2500",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "100",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "75",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "50",
+				"click_handler": {
+					"variable_delta": {
+						"score": 2,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			}
+		]
+		
+	}],
+	"3":[{
+		"question_type": "1",
+		"question_text": "What 2% of 2500",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "100",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "75",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "50",
+				"click_handler": {
+					"variable_delta": {
+						"score": 3,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			}
+		]
+		
+	}],
+	"4":[{
+		"question_type": "1",
+		"question_text": "What 2% of 2500",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "100",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "75",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "50",
+				"click_handler": {
+					"variable_delta": {
+						"score": 4,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			}
+		]
+		
+	}], 
+	"5":[{
+		"question_type": "1",
+		"question_text": "What 2% of 2500",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "100",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "75",
+				"click_handler": {
+					"variable_delta": {
+						"score": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "50",
+				"click_handler": {
+					"variable_delta": {
+						"score": 5,
+					}, 
+					"action_type": "NEXT_LEVEL",
+				} 
+			}
+		]
+		
+	}]
+	
+}

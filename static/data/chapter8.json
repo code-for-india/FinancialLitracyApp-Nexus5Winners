@@ -1,0 +1,228 @@
+var chapter_json = {
+	"start_node": "LEVEL_WORTH",
+	"type": "decision_tree",
+	"begin_variables": {
+			"balance": 100000,
+			"estimated_balance": 100000,
+			"goal_balance" : 190000,
+			"max_goal" : 305000,
+			"action_summary":[],
+			"cow": 1, 
+			"land": 1
+		},
+	"LEVEL_WORTH":{
+		"question_type": "1",
+		"question_text": "Resource with Hari <ul><li>1 Acre of land - worth Rs 1,20,000</li><li>1 Cow - worth 85,000</li><li>Rs 1,00,000 cash</li></ul>",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[{
+				"answer_image_url": "",
+				"answer_text": "Go to Bank",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_1"
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Piggy bank",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Cattle",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_3" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Land",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_4" 
+				} 
+			},
+		]
+		
+	},
+	"LEVEL_NAME":{
+		"question_type": "1",
+		"question_text": "How will you make his money grow?",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Bank",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_1"
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Piggy bank",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Cattle",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_3" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "Go to Land",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 0,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 0,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_4" 
+				} 
+			},
+		]
+		
+	},
+	"LEVEL_2_1":{
+		"question_type": "1",
+		"question_text": "Rate of interest that CITI bank gives you is 10% p.a. How much do you want to invest in CITI bank?",
+		"background_image": "",
+		"question_images": [""],
+		"answer_choices" :[
+			{
+				"answer_image_url": "",
+				"answer_text": "20,000",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 2000,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 102000,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "40,000",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 4000,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 104000,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "60,000",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 6000,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 106000,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			},
+			{
+				"answer_image_url": "",
+				"answer_text": "80,000",
+				"click_handler": {
+					"variable_delta": {
+						"balance": 0,
+						"gain" : 8000,
+						"loss" : 0,
+						"cow": 0, 
+						"land": 0,
+						"estimated_balance": 108000,
+					}, 
+					"action_type": "NEXT_LEVEL",
+					"action_value": "LEVEL_2_2" 
+				} 
+			}
+}

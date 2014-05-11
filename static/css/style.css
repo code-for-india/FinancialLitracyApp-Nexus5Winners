@@ -1,0 +1,406 @@
+.space-below{
+  margin-bottom: 30px !important;
+}
+
+.space-above{
+  margin-top: 30px !important;
+}
+
+/*------ Bootstrap overrides ------*/
+
+body, h1, h2, h3, h4, h5, h6, p, .muted.credit{
+  font-family: "Montserrat";
+  color: #1a1f29;
+}
+
+body{
+  padding-top: 80px;
+  font-size: 1.5em;
+  overflow-x:hidden;
+}
+
+h1{
+  margin: 0px;
+  font-weight: 700;
+  font-size: 22px;
+  width: auto;
+}
+
+h2{
+  font-weight: 700;
+}
+
+p{
+  font-size: 1.1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.active{
+  font-weight:bold;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul.nav.navbar-nav > li > a, .navbar-header > a{
+  border-bottom: 0;
+}
+
+ul.nav.navbar-nav > li > a:hover, .navbar-header > a:hover{
+  border-bottom: 0;
+}
+
+.container{
+  max-width: 1280px;
+}
+
+nav{
+  border-top: 7px solid #3455bc !important;
+}
+
+.nav-animated{
+  animation: fadeInDown 1s;
+  -webkit-animation: fadeInDown 1s;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  color: #1a1f29 !important;
+  padding: 12px 15px;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.section#explain-section{
+  display: block;
+}
+
+/*------ Styling specific components -------*/
+
+section#landing{
+  width: 100%;
+}
+
+#hero-container{
+  animation: fadeInUp 1s;
+  -webkit-animation: fadeInUp 1s;
+  /*padding: 100px 15px 150px 15px;*/
+  margin: 0 auto;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.hero-text{
+  margin: 100px 0;
+  z-index: 10;
+}
+
+#landing-image{
+  z-index: 5;
+}
+
+.btn#btn-learn-more, input[type="submit"]{
+  border: 3px solid #ffe743;
+  background-color: #ffe743;
+  color: #1a1f29;
+  margin-right: 10px;
+}
+
+
+i{
+  color: #1a1f29;
+}
+
+section{
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 25px 0;
+}
+
+#resolve-section{
+  background-color: rgba(248, 248, 248, 0.2);
+}
+
+.row.top{
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.user-stat{
+  font-weight: 700;
+}
+
+.col-md-4{
+  border-right: 1px solid rgb(220, 220, 220);
+}
+
+.col-md-4:last-child{
+  border-right: 0;
+}
+
+#analytics{
+  background-color: rgb(248, 248, 248);
+}
+
+.dashboard-container{
+  padding: 25px 0 1px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  background-color: white;
+}
+
+.row.line{
+  margin: 30px;
+  border-top: 1px solid rgb(220, 220, 220);
+}
+h2.space-below{
+  margin-bottom: 30px;
+}
+
+.row.space-below{
+  margin: 0 10px;
+}
+
+
+/*--------------- FOOOOTER ----------*/
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  text-align: center;
+}
+.muted{
+  font-family: helvetica;
+  font-size: 0.9em;
+  padding-top: 15px;
+  text-decoration: none !important;
+  color: #6F6F6F;
+}
+
+.muted a{
+  border-bottom: none;
+  color: #222;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+form.bgwhite{
+  background-color: #FFF;
+  border-radius: 5px;
+  border: 1px solid rgb(244, 244, 244);
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.num{
+  color: white;
+  font-weight: 700;
+  background-color: #3859c0;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin: 0 auto;
+  padding: 3px 0 0 2px;
+  font-size: 2em;
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+
+
+.selectAction{
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.demo{
+	position: relative;
+	width: 100%;
+	background-color: white;
+	height: 1000px;
+	overflow: auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+
+.navbar-default .navbar-nav > .active > a{
+	font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav#sitemenu{
+	margin-left: 100px;
+}
+
+
+.userstats ul {
+	list-style: none;
+	padding-left: 1px;
+}
+
+.blogtopusers {
+	width: 75px;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+.bloglarge {
+	width: 67px;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+.blogsmall {
+	width: 67px;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+.followblog {
+	width: 64px;
+	height: 33px;
+	padding-top: 9px;
+	position: absolute;
+	visibility: hidden;
+	display: run-in;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	background: #000;
+	border-radius: 5px 5px 0px 0px;
+	opacity: 0.75;
+}
+
+.viewblog {
+	width: 64px;
+	height: 32px;
+	position: absolute;
+	visibility: hidden;
+	display: run-in;
+	margin-top: 32px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	background: #000;
+	border-top: 1px solid #FFFFFF;
+	padding: 10px 0px 12px;
+	border-radius: 0px 0px 5px 5px;
+	opacity: 0.75;
+}
+
+.blogsmall:hover .followblog {
+    visibility: visible;
+}
+
+.blogsmall.following:hover .followblog {
+    visibility: hidden;
+}
+
+.blogsmall.progressff .followblog {
+    visibility: visible;
+}
+
+.blogsmall.progressff .viewblog {
+    visibility: visible;
+}
+
+
+
+.blogsmall:hover .viewblog {
+    visibility: visible;
+}
+
+.daysleft {
+	margin: 5px 0px 10px 0px;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+}
+
+.sescTitle{
+	font-weight:bold;
+	margin-top: 13px;
+	margin-bottom: 10px;	
+}
+
+.follow-done{
+	background:url('../img/done0.png');
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	visibility:hidden;
+}
+
+.following .follow-done{
+	visibility:visible;
+}
+
+
+.btn#btn-sign-up {
+	background-color: transparent;
+	border: 3px solid #1a1f29;
+	color: #1a1f29;
+	font-weight:bold;
+	font-size:18px;
+	margin-top:25px;
+}
+
+
+#grayedInput{
+    -moz-box-shadow: 0 0 9px #E6E6E6 inset;
+    -webkit-box-shadow: 0 0 9px #E6E6E6 inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    border: 2px solid #C7C7C7;
+    padding: 12px;
+    width: 358px;
+    margin-top:25px;
+    font-family: "Montserrat";
+}
+
+
+#grayedInput::-webkit-input-placeholder { font-size: 14px;font-family: "Montserrat";}
+#grayedInput::-moz-placeholder { font-size: 14px;font-family: "Montserrat";}
+#grayedInput:-ms-input-placeholder{ font-size: 14px;font-family: "Montserrat";}
+
+#trackerAlert i.fa-exclamation-triangle{
+	color:orange;
+}
+
+#trackerAlert i.fa-check-circle{
+	color:green;
+}

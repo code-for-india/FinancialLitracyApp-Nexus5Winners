@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reporting</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+
+    
+        <!-- bootstrap -->
+    <link href="/css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="/css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+    <link href="/css/compiled/elements.css" rel="stylesheet" type="text/css" >
+ 
+    <!-- libraries -->
+    <link href="/css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- global styles -->
+    <link rel="/stylesheet" type="text/css" href="css/compiled/layout.css">
+    <link rel="/stylesheet" type="text/css" href="css/compiled/elements.css">
+    <link rel="/stylesheet" type="text/css" href="css/compiled/icons.css">
+
+    <!-- this page specific styles -->
+    <link rel="/stylesheet" href="css/compiled/index.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="/css/font.css" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->    <link rel="stylesheet" href="css/style.css" media="all" type="text/css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"  media="all" type="text/css">
+	<style type="text/css">
+		.table .img {
+			display:inline;
+		}
+		
+		ul.selectedList{
+			list-style: none;
+			font-size: 11px;
+		}
+		
+		ul.selectedList li{
+			padding-top:7px;
+		}		
+		
+		.cap{
+			text-transform: capitalize;
+		}
+	</style>
+  </head>
+  <body>
+    <div id="wrap">
+    	<div class="container">
+    	
+    	
+        
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"" role="navigation">
+        	<div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="/">Financial Literacy <i class="fa fa-bolt "></i></a>
+          </div>
+
+          </div>
+      </nav>
+     </div>
+
+
+
+
+
+      <section id="landing">
+      
+        <div class="container">
+		  <div class="container" style="min-height: 600px;">
+		    <div class="row">
+			    <div class="col-sm-10 col-md-offset-1" style="padding: 50px;background: #f9f9f9;">
+			    	<center><img src="images/loading_bar.gif" id="please_wait_loader" style="display: none;"></center>
+			    	<div class="row-fluid">
+			    		<div class="col-sm-3">
+				    		<select id="district_selector" style="min-width: 170px;">
+				    		</select>
+			    		</div>
+			    		<div class="col-sm-3">
+			    			<select id="school_selector" style="min-width: 170px;">
+				    		</select>
+			    		</div>
+			    		<!-- <div class="col-sm-3">
+			    			<select id="teacher_selector" style="min-width: 170px;">
+				    		</select>
+			    		</div>
+			    		<div class="col-sm-3">
+			    			<select id="ngo_partner_selector" style="min-width: 170px;">
+				    		</select>
+			    		</div> -->
+			    	</div>
+			    	<br></br>
+			    	<center><a class="btn btn-info" id="search_based_on_filter">Search</a></center>
+			    	<br></br>
+					
+					<div style="overflow: scroll;">
+						<table class="table">
+							<tr>
+								<th>Chapter</th>
+								<th id="col_1"><span id="col_1_teacher">Shanthi</span> <br>(NGO: <span id="col_1_ngo">Manoj</span>)</th>
+								<th id="col_2"><span id="col_2_teacher">Kumari</span> <br>(NGO: <span id="col_1_ngo">Atul</span>)</th>
+								<th id="col_3"><span id="col_3_teacher">Atul</span> <br>(NGO: <span id="col_1_ngo">Sheela</span>)</th>
+								<th id="col_4"><span id="col_4_teacher">Veena</span> <br>(NGO: <span id="col_1_ngo">Atul</span>)</th>
+								<th id="col_5"><span id="col_5_teacher">Reena</span> <br>(NGO: <span id="col_1_ngo">Manoj</span>)</th>
+								<th id="col_6"><span id="col_6_teacher">Arun</span> <br>(NGO: <span id="col_1_ngo">Manoj</span>)</th>
+							</tr>
+							<tr>
+								<td>Chapter 1</td>
+								<td id="col_1"><span id="col_1_baseline">40</span> | <span id="col_1_max">80</span> | <span id="col_1_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_2"><span id="col_2_baseline">22</span> | <span id="col_2_max">85</span> | <span id="col_2_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_3"><span id="col_3_baseline">23</span> | <span id="col_3_max">79</span> | <span id="col_3_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_4"><span id="col_4_baseline">25</span> | <span id="col_4_max">70</span> | <span id="col_4_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_5"><span id="col_5_baseline">40</span> | <span id="col_5_max">50</span> | <span id="col_5_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_6"><span id="col_6_baseline">18</span> | <span id="col_6_max">80</span> | <span id="col_6_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+							</tr>
+							<tr>
+								<td>Chapter 2</td>
+								<td id="col_1"><span id="col_1_baseline">24</span> | <span id="col_1_max">86</span> | <span id="col_1_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_2"><span id="col_2_baseline">22</span> | <span id="col_2_max">77</span> | <span id="col_2_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_3"><span id="col_3_baseline">23</span> | <span id="col_3_max">81</span> | <span id="col_3_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_4"><span id="col_4_baseline">25</span> | <span id="col_4_max">72</span> | <span id="col_4_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_5"><span id="col_5_baseline">40</span> | <span id="col_5_max">54</span> | <span id="col_5_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_6"><span id="col_6_baseline">19</span> | <span id="col_6_max">85</span> | <span id="col_6_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+							</tr>
+							<tr>
+								<td>Chapter 3</td>
+								<td id="col_1"><span id="col_1_baseline">24</span> | <span id="col_1_max">86</span> | <span id="col_1_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_2"><span id="col_2_baseline">22</span> | <span id="col_2_max">77</span> | <span id="col_2_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_3"><span id="col_3_baseline">27</span> | <span id="col_3_max">82</span> | <span id="col_3_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_4"><span id="col_4_baseline">35</span> | <span id="col_4_max">72</span> | <span id="col_4_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_5"><span id="col_5_baseline">35</span> | <span id="col_5_max">53</span> | <span id="col_5_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_6"><span id="col_6_baseline">27</span> | <span id="col_6_max">85</span> | <span id="col_6_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+							</tr>
+							<tr class="danger">
+								<td>Chapter 4</td>
+								<td id="col_1"><span id="col_1_baseline">26</span> | <span id="col_1_max">54</span> | <span id="col_1_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_2"><span id="col_2_baseline">12</span> | <span id="col_2_max">45</span> | <span id="col_2_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_3"><span id="col_3_baseline">18</span> | <span id="col_3_max">43</span> | <span id="col_3_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_4"><span id="col_4_baseline">22</span> | <span id="col_4_max">36</span> | <span id="col_4_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_5"><span id="col_5_baseline">35</span> | <span id="col_5_max">46</span> | <span id="col_5_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_6"><span id="col_6_baseline">30</span> | <span id="col_6_max">55</span> | <span id="col_6_result" class=" glyphicon glyphicon-minus"></span></td>
+							</tr>
+							<tr >
+								<td>Chapter 5</td>
+								<td id="col_1"><span id="col_1_baseline">33</span> | <span id="col_1_max">76</span> | <span id="col_1_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_2"><span id="col_2_baseline">21</span> | <span id="col_2_max">79</span> | <span id="col_2_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_3"><span id="col_3_baseline">26</span> | <span id="col_3_max">92</span> | <span id="col_3_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_4"><span id="col_4_baseline">37</span> | <span id="col_4_max">72</span> | <span id="col_4_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+								<td id="col_5"><span id="col_5_baseline">35</span> | <span id="col_5_max">43</span> | <span id="col_5_result" class=" glyphicon glyphicon-minus"></span></td>
+								<td id="col_6"><span id="col_6_baseline">21</span> | <span id="col_6_max">85</span> | <span id="col_6_result" class=" glyphicon glyphicon-arrow-up"></span></td>
+							</tr>
+						</table>
+					</div>   
+					<hr>
+					<iframe width='100%' height='500px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/arunkumarsrec.i76mof4d/attribution,zoompan,zoomwheel,geocoder,share.html'></iframe>
+			    </div>
+		    </div>
+		  </div>
+    </div> <!-- end wrap -->
+  	
+  </section>
+
+
+
+
+
+
+
+
+<script id="slideTmpl1" type="text/x-handlebars-template">
+	<div class="text">
+		{{{question_text}}}
+	</div>
+	<br></br>
+	{{#list answer_choices}}<a href="#" class="answersChoice">{{answer_text}}</a>{{/list}}
+
+</script>
+
+
+<script id="slideTmpl2" type="text/x-handlebars-template">
+	<div class="text">
+		<img src='http://textadventures.blob.core.windows.net/gameresources/4ee3a419-d2ed-42a1-a49a-ac024f9be63f/norberto.jpg' />
+		<br></br>
+		{{{body}}}
+	</div>
+	<br></br>
+	{{#list answer_choices}}<a href="#">{{answer_text}}</a>{{/list}}
+
+</script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="js/reporting.js"></script>
+	</body>
+	<script>
+$(function(){
+	getFilterData();
+});
+$("#search_based_on_filter").click(function(){
+	getDataBasedOnFilter();
+});
+</script>
+	  	
+</html>

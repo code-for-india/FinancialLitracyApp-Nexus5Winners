@@ -1,0 +1,105 @@
+# NOTE: BE CAREFUL with Configuration
+application: financialgameapp
+# DO NOT FORGET TO LOOK FOR 'secure: optional' in Dynamic Handler configuration
+
+version: 06172013
+runtime: python27
+api_version: 1
+
+# Use concurrent requests
+threadsafe: true
+
+
+# Defaul expiration time. If omitted, the production server sets the expiration
+# to 10 minutes.
+default_expiration: "7d"
+
+handlers:
+# Static Content Handlers
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+- url: /(robots\.txt)
+  static_files: static/\1
+  upload: static/robots\.txt
+- url: /static
+  static_dir: static
+  http_headers:
+    Cache-Control: max-age=3600
+- url: /(images|css|js|img|map|data|font)/(.*)
+  static_files: static/\1/\2
+  upload: static/(images|css|js|img|map|data|font)/(.*)
+  http_headers:
+    Cache-Control: max-age=3600
+# Duplicate static file handlers for whycarpool.org
+- url: /whycarpool/favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+- url: /whycarpool/(robots\.txt)
+  static_files: static/\1
+  upload: static/robots\.txt
+- url: /whycarpool/static
+  static_dir: static
+  http_headers:
+    Cache-Control: max-age=3600
+- url: /whycarpool/(images|css|js|img|font)/(.*)
+  static_files: static/\1/\2
+  upload: static/(images|css|js|img|font)/(.*)
+  http_headers:
+    Cache-Control: max-age=3600
+# Push Messaging - Routing handled by main.py
+#- url: /push/.*
+#  script: pushnotification.push.app
+#- url: /admin/.*
+#  script: pushnotification.admin.app
+#- url: /apns/.*
+#  script: pushnotification.apnsmodule.app
+#- url: /gcm/.*
+#  script: pushnotification.gcmmodule.app
+
+# Dynamic Handler
+- url: /.*
+  script: main.application
+  #secure: optional
+  secure: always
+
+
+
+#inbound_services:
+#- warmup  
+  
+# The Python SDK includes a number of builtin handlers 
+# for common application functions.
+builtins:
+# See this page for more info:
+# http://code.google.com/appengine/docs/python/tools/appstats.html
+# - appstats: on
+
+# Usage article:
+# http://code.google.com/appengine/articles/deferred.html
+# - deferred: on
+
+# More info on Setting Up Remote API:
+# http://code.google.com/appengine/docs/python/tools/uploadingdata.html
+# - remote_api: on
+
+# A list of URL patterns and descriptions of how they should be handled. 
+# Reserved URLs (you can't use them): 
+#   /_ah/
+#   /form
+
+libraries:
+- name: django
+  version: "1.3"
+- name: webapp2
+  version: "2.5.1"
+- name: markupsafe
+  version: "0.15"
+- name: setuptools
+  version: "0.6c11"
+- name: jinja2
+  version: "2.6"
+- name: ssl
+  version: latest
+- name: PIL
+  version: latest

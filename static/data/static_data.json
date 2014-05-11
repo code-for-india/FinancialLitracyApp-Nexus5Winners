@@ -1,0 +1,649 @@
+{
+	"District" : [{
+		"district_name" : "Bangalore Urban"
+	}], 
+	"School" : [{
+		"school_name" : "A - Govt High School", 
+		"school_district" : "Bangalore Urban", 
+		"school_lat" : 0.0,
+		"school_long": 0.0, 
+		"average_baseline_score" : 0,
+    	"average_final_score" :0
+	}, 
+	{
+		"school_name" : "B - Govt High School", 
+		"school_district" : "Bangalore Urban",
+		"school_lat" : 0.0,
+		"school_long": 0.0,
+		"average_baseline_score" : 0,
+    	"average_final_score" :0
+	}], 
+	"NGOPartner" : [{
+		"ngo_partner_name" : "Manoj"
+	}, 
+	{
+		"ngo_partner_name" : "Atul"
+	}, 
+	{
+		"ngo_partner_name" : "Sheela"
+	}], 
+	"Teacher" : [{
+		"teacher_name" : "Shanthi", 
+		"school" : "A - Govt High School", 
+		"ngo_partner" : "Manoj"
+	}, 
+	{
+		"teacher_name" : "Kumari", 
+		"school" : "A - Govt High School", 
+		"ngo_partner" : "Atul"
+	}, 
+	{
+		"teacher_name" : "Veena", 
+		"school" : "A - Govt High School", 
+		"ngo_partner" : "Sheela"
+	}, 
+	{
+		"teacher_name" : "Reena", 
+		"school" : "B - Govt High School", 
+		"ngo_partner" : "Manoj"
+	}, 
+	{
+		"teacher_name" : "Arun", 
+		"school" : "B - Govt High School", 
+		"ngo_partner" : "Atul"
+	}, 
+	{
+		"teacher_name" : "Geetha", 
+		"school" : "B - Govt High School", 
+		"ngo_partner" : "Sheela"
+	}], 
+	"ClassIndicator" : [{
+		"class_name" : "7A",
+		"school" : "A - Govt High School", 
+		"teacher" : "Shanthi"
+	}, 
+	{
+		"class_name" : "7B",
+		"school" : "A - Govt High School", 
+		"teacher" : "Kumari"
+	},
+	{
+		"class_name" : "7C",
+		"school" : "A - Govt High School", 
+		"teacher" : "Veena"
+	},
+	{
+		"class_name" : "7D",
+		"school" : "A - Govt High School", 
+		"teacher" : "Veena"
+	},
+	{
+		"class_name" : "8A",
+		"school" : "B - Govt High School", 
+		"teacher" : "Reena"
+	},
+	{
+		"class_name" : "8B",
+		"school" : "B - Govt High School", 
+		"teacher" : "Arun"
+	},
+	{
+		"class_name" : "8C",
+		"school" : "B - Govt High School", 
+		"teacher" : "Geetha"
+	}], 
+	"Chapters" : [{
+		"chapter_id": "Chapter 1", 
+		"chapter_name" : "Welcome Session - Need and Wants"
+	},
+	{
+		"chapter_id": "Chapter 2", 
+		"chapter_name" : "Rural Livelihood"
+	},
+	{
+		"chapter_id": "Chapter 3", 
+		"chapter_name" : "Urban Livelihood"
+	},
+	{
+		"chapter_id": "Chapter 4", 
+		"chapter_name" : "Planning Part 1 (Maintaining a passbook and Identification of Needs and Wants)"
+	},
+	{
+		"chapter_id": "Chapter 5", 
+		"chapter_name" : "Planning Part 2 (Setting up the target and Budgeting)"
+	},
+	{
+		"chapter_id": "Chapter 6", 
+		"chapter_name" : "Barter System & Introduction of Money"
+	},
+	{
+		"chapter_id": "Chapter 7", 
+		"chapter_name" : "Importance of savings (Nitin ki galtiyan)"
+	},
+	{
+		"chapter_id": "Chapter 8", 
+		"chapter_name" : "Advantage and Disadvantage of a bank and a piggy bank and Steps to open up a bank account"
+	},
+	{
+		"chapter_id": "Chapter 9", 
+		"chapter_name" : "Equal Rights for Boys and Girls"
+	},
+	{
+		"chapter_id": "Chapter 10", 
+		"chapter_name" : "Problems in the world like, Illiteracy, Malnutrition, Starvation, Diseases"
+	},
+	{
+		"chapter_id": "Chapter 11", 
+		"chapter_name" : "Decimals and Currency"
+	}, 
+	{
+		"chapter_id": "Chapter 12", 
+		"chapter_name" : "Financial Enterprise (connecting it with social enterprise)"
+	} ], 
+	"ChapterClassTrack" : [{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 85
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 25,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 40,
+		"average_final_score" : 50
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 90
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 20,
+		"average_final_score" : 95
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 34,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 43,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "7A", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 77
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 86
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 26,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 41,
+		"average_final_score" : 49
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 35,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 33,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "7B", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 77
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 49
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 66
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 31
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 26,
+		"average_final_score" : 71
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 40
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 41,
+		"average_final_score" : 49
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 40
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 41
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 41
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 35,
+		"average_final_score" : 65
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 33,
+		"average_final_score" : 60
+		}, 
+		{
+		"related_class": "7C", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 47
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 86
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 26,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 41,
+		"average_final_score" : 49
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 35,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 33,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "7D", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 77
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 74
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 84
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 25,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 71
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 40,
+		"average_final_score" : 54
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 72
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 20,
+		"average_final_score" : 96
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 33,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 43,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "8A", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 77
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 25,
+		"average_final_score" : 86
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 78
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 26,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 73
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 31,
+		"average_final_score" : 49
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 70
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 91
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 92
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 31,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 31,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "8B", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 1", 
+		"average_baseline_score" : 11,
+		"average_final_score" : 79
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 2", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 86
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 3", 
+		"average_baseline_score" : 24,
+		"average_final_score" : 71
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 4", 
+		"average_baseline_score" : 26,
+		"average_final_score" : 81
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 5", 
+		"average_baseline_score" : 19,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 6", 
+		"average_baseline_score" : 41,
+		"average_final_score" : 69
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 7", 
+		"average_baseline_score" : 23,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 8", 
+		"average_baseline_score" : 12,
+		"average_final_score" : 71
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 9", 
+		"average_baseline_score" : 22,
+		"average_final_score" : 71
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 10", 
+		"average_baseline_score" : 35,
+		"average_final_score" : 75
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 11", 
+		"average_baseline_score" : 33,
+		"average_final_score" : 80
+		}, 
+		{
+		"related_class": "8C", 
+		"related_chapter" : "Chapter 12", 
+		"average_baseline_score" : 13,
+		"average_final_score" : 87
+		}
+
+		]
+}
